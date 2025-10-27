@@ -16,5 +16,10 @@ namespace PR08_Maletin_AbramovVadim
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
