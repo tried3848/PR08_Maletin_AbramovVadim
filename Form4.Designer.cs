@@ -40,6 +40,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,12 +137,42 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Цвет";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(433, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(260, 29);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Добавить/Редактировать";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(433, 135);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(260, 29);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Удалить";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(433, 227);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(260, 29);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Выход";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chartreuse;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
@@ -175,5 +208,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
