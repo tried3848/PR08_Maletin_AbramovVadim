@@ -79,5 +79,15 @@ namespace PR08_Maletin_AbramovVadim.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap result_Icon1 {
+            get {
+                object obj = ResourceManager.GetObject("result_Icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
